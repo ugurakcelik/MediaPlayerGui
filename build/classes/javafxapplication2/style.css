@@ -1,0 +1,25 @@
+.menu-item{
+  -fx-background-color: darkorange;
+}
+.slider{
+  -fx-control-inner-background: darkgrey;
+}
+.hbox{
+  -fx-border-width: 1mm 0 0 0;
+  -fx-border-color: darkorange;
+}
+.menu-item .label {
+  -fx-font: 18px bold;
+  -fx-text-fill: white;
+}
+
+.menu-item:focused {
+   -fx-background-color: darkgray;
+}
+
+.menu-item:focused .label {
+  -fx-text-fill: darkblue;
+}
+.context-menu {
+  -fx-background-color: black;
+}
